@@ -1,7 +1,8 @@
 # ProjectGroup-19
 1.
-#Project Title
-#AI-mergency Control Room (AICR)
+**Project Title**
+
+  *AI-mergency Control Room (AICR)*
        
    * What does AICR do?
 
@@ -38,3 +39,10 @@
 
    ![Image of Yaktocat](https://developer.ibm.com/developer/openprojects/ai-mergency/images/arch2.jpg)
 
+
+  * Technology Stack
+    
+	    Front-end: React, Node JS, 
+        Database: Db2
+I       BM Cloud Services, Server-side Javascript, 
+        Watson Natural Language Understanding, Watson Language Studio
