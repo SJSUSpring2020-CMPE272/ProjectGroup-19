@@ -1,4 +1,5 @@
 # ProjectGroup-19
+
 1.
 **Project Title**
 
@@ -46,3 +47,44 @@
         Database: Db2
 		IBM Cloud Services, Server-side Javascript,
 		Watson Natural Language Understanding, Watson Language Studio
+
+
+
+
+2.
+
+**Project Title**
+
+  *Movie success prediction using data-mining PHP*
+
+   * Project idea description
+	
+		Uses historical data of each component such as actor, actress, director, release date,  music 
+		to indicate if a movie will be a flop or hit.  With the help of AI we can easily pattern match 
+		successful or unsuccessful characteristics of past movies and turn them into future projections.
+		By assigning each movie characteristic a weight we are able to create surface-level movie analysis 
+		and also be able to filter out characteristics which are not important.
+
+
+   * Goal of the project (who are you developing the project for)
+
+		With the emergence of movie review websites such as Rotten Tomatoes, consumers have been relying 
+		heavily on these reviews to be a deciding factor in whether or not they go see a movie.  However, 
+		these reviews are usually only present shortly prior to movie release.  The goal of this project 
+		is to potentially give the movie industry a pre-analysis of their movie to help optimize profits, 
+		but also to give consumers a chance to view movie reviews from another perspective.  Although the 
+		criteria in which it is being graded is surface-level, it is a useful tool for consumers to aid plan
+		their movie trips accordingly.
+
+
+   * Technology stack
+
+		* Front-end: ReactJS
+		* https://imdbpy.github.io/ - To retrieve data from IMDB (movie database)
+		* Twitter API calls to search through tweet trends
+		* Facebook API calls to search public posts for mention of movie
+		* Database: Firebase
+
+
+ 
+
