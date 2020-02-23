@@ -113,7 +113,7 @@
 	further increase accuracy.
 
 
-	* Goal of the project (who are you developing the project for)
+   * Goal of the project (who are you developing the project for)
 
 	The overall goal of this project is to improve the health of the public along with improving breast cancer 
 	detection in early onset stages. This project is being built for the general public as it concerns the health 
@@ -122,7 +122,7 @@
 	be marketed to a number of insurance companies or health care providers whether they are governmental or private. 
 	This project does have the ability to convert to a for-profit venture.
 
-	* Technology stack
+   * Technology stack
 
 		* Front-end: ReactJS
 		* Cancer Image database 
