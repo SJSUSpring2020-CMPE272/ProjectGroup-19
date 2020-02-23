@@ -21,7 +21,7 @@ AI-mergency Control Room (AICR)
 		to existing features. We may integrate the AI Fairness 360 toolkit into this project to help us make our 
 		project as unbiased as possible.
 
-	How does AICR work?
+   How does AICR work?
 
         AICR automatically transcribes incoming calls and extract all the detailed information by the help of Watson
 		Natural Language Understanding and Watson Knowledge Studio. The status of the situation and all the incidents 
@@ -29,3 +29,6 @@ AI-mergency Control Room (AICR)
 		dispatcher to track emergency spots and prioritization. AICR is using a database powered by Db2 to store all the
 		call information and allows to trace calls during and after the emergency.
 
+   
+
+   ![Image of Yaktocat](https://developer.ibm.com/developer/openprojects/ai-mergency/images/arch1.png)
