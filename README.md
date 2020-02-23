@@ -44,5 +44,4 @@
     
 	    Front-end: React, Node JS, 
         Database: Db2
-I       BM Cloud Services, Server-side Javascript, 
-        Watson Natural Language Understanding, Watson Language Studio
+I       Other tech: BM Cloud Services, Server-side Javascript, Watson Natural Language Understanding, Watson Language Studio
