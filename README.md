@@ -4,6 +4,7 @@
 **Project Title**
 
   *AI-mergency Control Room (AICR)*
+  # Approved
        
    * What does AICR do?
 
