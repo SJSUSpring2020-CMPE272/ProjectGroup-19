@@ -1,4 +1,4 @@
-# ProjectGroup-19
+# AI-Mergency Room Project
 
 1.
 **Project Title**
@@ -51,85 +51,4 @@
 
 
 
-
-
-
-
-2.
-
-**Project Title**
-
-  *Movie success prediction using data-mining PHP*
-
-   * Project idea description
-	
-		Uses historical data of each component such as actor, actress, director, release date,  music 
-		to indicate if a movie will be a flop or hit.  With the help of AI we can easily pattern match 
-		successful or unsuccessful characteristics of past movies and turn them into future projections.
-		By assigning each movie characteristic a weight we are able to create surface-level movie analysis 
-		and also be able to filter out characteristics which are not important.
-
-
-   * Goal of the project (who are you developing the project for)
-
-		With the emergence of movie review websites such as Rotten Tomatoes, consumers have been relying 
-		heavily on these reviews to be a deciding factor in whether or not they go see a movie.  However, 
-		these reviews are usually only present shortly prior to movie release.  The goal of this project 
-		is to potentially give the movie industry a pre-analysis of their movie to help optimize profits, 
-		but also to give consumers a chance to view movie reviews from another perspective.  Although the 
-		criteria in which it is being graded is surface-level, it is a useful tool for consumers to aid plan
-		their movie trips accordingly.
-
-
-   * Technology stack
-
-		* Front-end: ReactJS
-		* https://imdbpy.github.io/ - To retrieve data from IMDB (movie database)
-		* Twitter API calls to search through tweet trends
-		* Facebook API calls to search public posts for mention of movie
-		* Database: Firebase
-
-
-
-
-
-
-
-
-
-3. 
-
-**Project Title** 
-
-  *AI-based Cancer Recognition*
-
-
-   * Project idea description
-
-		Cancer is a disease that a lot of people suffer from. Breast cancer affects a lot of 
-		women in the world. AI and deep learning concepts can be used to detect breast cancer
-		in women. Using an existing database of images of breast cancer in women along with other
-		essential data, breast cancer might be detected earlier. Another implementation of this
-		project can be a sort of self-service system with functionality to predict breast cancer. 
-		The patient can enter their symptoms along with uploading images. A questionnaire will accompany 
-		further increase accuracy.
-
-
-   * Goal of the project (who are you developing the project for)
-
-		The overall goal of this project is to improve the health of the public along with improving
-		breast cancer detection in early onset stages. This project is being built for the general 
-		public as it concerns the health of all people. Another goal of the project is to create awareness
-		for the need of AI in the medical field. The goal of this project is to be a non-profit venture as 
-		it concerns the health of all. However, this project can be marketed to a number of insurance companies
-		or health care providers whether they are governmental or private. This project does have the ability
-		to convert to a for-profit venture.
-
-   * Technology stack
-
-		* Front-end: ReactJS
-		* Cancer Image database 
-		* WebMD API calls to create questionnaire for symptoms
-		* Google Image Search API for image detection
-		* Database: Firebase
 
