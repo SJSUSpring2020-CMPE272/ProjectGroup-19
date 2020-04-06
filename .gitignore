@@ -1,0 +1,7 @@
+*/node_modules
+npm-debug.log
+node_app/db-credentials.json
+node_app/daas-credentials.json
+node_app/google-speech-credentials.json
+node_app/nlu-credentials.json
+node_app/public/scripts/mapbox-credentials.json
