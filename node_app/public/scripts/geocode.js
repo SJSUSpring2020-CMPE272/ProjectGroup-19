@@ -6,7 +6,7 @@
  * @param {*} cb The callback to be executed once the position has been found
  */
 
-const config = require('./../../../../ai-mergency-creds/mapbox-credentials.json');
+const config = require('./mapbox-credentials.json');
 
 export function geocoding(place, position = null, cb) {
   const apiToken = config.apiToken;
