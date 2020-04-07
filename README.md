@@ -1,10 +1,28 @@
 # AI-Mergency Room Project
 
-1.
+## How to install 
+1. ```git clone``` this repo to your machine
+2. Comparing your project with the clone of the actual AICR project, place your **db-credentials.json**, **daas-credentials.json**, **nlu-credentials.json**, and **google-speech-credentials.json** into the **/node_app** directory
+3. Copy/paste your **mapbox-credentials.json** into **/node_app/public/scripts directory**. These files are listed in the .gitignore file to that we can practice good security with our files and not push our own credentials to github.
+
+## Development Workflow
+1. Once you have your requirements set, make sure you're on the master branch & go ahead and make a branch with 
+```git checkout -b branch-name-involving-your-feature```
+
+2. Once you make changes, check your changes with ```git status``` or ```git diff```, then add, commit and push your changes
+	- ```git add .```
+	- ```git commit -m 'message about your change'```
+	- ```git push origin your-branch-name```
+	
+2. Make your changes and make sure your code works before you merge it back to master
+	- ```git checkout master```
+	- ```git pull origin master```
+	- ```git merge your-branch-name``` hopefully there aren't too many merge conflicts, fix those and commit again
+	- ```git push origin master```
+
 **Project Title**
 
   *AI-mergency Control Room (AICR)*
-  # Approved
        
    * What does AICR do?
 
