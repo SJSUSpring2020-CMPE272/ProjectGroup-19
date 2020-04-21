@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 
-const endCallIconUrl = 'https://png.icons8.com/color/50/000000/end-call.png';
-const acceptCallIconUrl = 'https://png.icons8.com/color/50/000000/phone.png';
-const incomingCallIconUrl = 'https://png.icons8.com/ios/50/000000/ringer-volume.png';
-const recordingCallIconUrl = 'https://png.icons8.com/color/50/000000/audio-wave.png';
-const doneCallIconUrl = 'https://png.icons8.com/color/50/000000/checked.png';
-const replayCallIconUrl = 'https://png.icons8.com/color/50/000000/replay.png';
+const endCallIconUrl = 'https://img.icons8.com/color/50/000000/end-call.png';
+const acceptCallIconUrl = 'https://img.icons8.com/color/50/000000/phone.png';
+const incomingCallIconUrl = 'https://img.icons8.com/ios/50/000000/ringer-volume.png';
+const recordingCallIconUrl = 'https://img.icons8.com/color/50/000000/audio-wave.png';
+const doneCallIconUrl = 'https://img.icons8.com/color/50/000000/checked.png';
+const replayCallIconUrl = 'https://img.icons8.com/color/50/000000/replay.png';
 
 const incomingState = 'incoming';
 export const activeState = 'active';
