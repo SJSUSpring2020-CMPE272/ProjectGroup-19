@@ -281,7 +281,7 @@ class CasaRoot extends Component {
           <span className="right">Dana ☰</span>
         </div>
         <NavBar
-          names={['Incoming Calls', 'Transcript', 'Incidents', 'Map']}
+          names={['Incoming Calls', 'Transcript', 'Incidents', 'Map', 'Analysis']}
           activeIndex={activeTab}
           onClick={this.navigateSliderTo}
         />

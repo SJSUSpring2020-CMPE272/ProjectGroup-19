@@ -1,4 +1,5 @@
 import React from 'react';
+import dashboardSpec from '../src/data/dashboard.json';
 
 const NavTab = (props) => {
   const {

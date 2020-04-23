@@ -9,6 +9,7 @@ const db = require('./db.js');
 const stt = require('./stt.js');
 const dbReset = require('./setupDB');
 const daas = require('./daas-credentials.json');
+const cognos = require('./cognos-dashboard-credentials.json');
 
 // Bootstrap application settings
 require('./config/express')(app);
@@ -154,6 +155,34 @@ app.post('/recognize', (req, res) => {
 
   res.send(Date.now().toString());
 });
+
+
+// Analysis section
+app.get('/', (req, res) => res.render('analysis'));
+app.get('/analysis', (req, res) => {
+  const user = cognos.client_id;
+  const pwd = cognos.client_secret;
+  const url = cognos.api_endpoint_url;   
+    if (error) {
+      console.log(error);
+    } else {
+      const { sessionCode } = JSON.parse(body);
+      console.log(`session Code ${sessionCode}`);
+
+      res.json({ sessionCode });
+    }
+  });
+
+app.post('/analysis', (req,res) => {
+    // post existing dashboard 
+    //const dashboard = req.body;
+
+    
+    
+    res.status(200);
+    //res.json(dashboard);
+});
+
 
 process.on('SIGINT', () => {
   console.log('Closing DB connection.');
