@@ -1,0 +1,104 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Person Trapped",
+        "description": "2 lives at risk"
+      },
+      "geometry": {
+        "coordinates": [-76.797722, 39.267658],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Person Trapped",
+        "description": "1 lives at risk"
+      },
+      "geometry": {
+        "coordinates": [-76.796120, 39.267680],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Person Trapped",
+        "description": "2 lives at risk"
+      },
+      "geometry": {
+        "coordinates": [-76.795680, 39.267410],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Building Flooded",
+        "description": "0 lives at risk"
+      },
+      "geometry": {
+        "coordinates": [-76.795680, 39.267800],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Building Flooded",
+        "description": "0 lives at risk"
+      },
+      "geometry": {
+        "coordinates": [-76.7975079, 39.2678671],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Building Flooded",
+        "description": "0 lives at risk"
+      },
+      "geometry": {
+        "coordinates": [-76.7972696, 39.2678983],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Building Flooded",
+        "description": "0 lives at risk"
+      },
+      "geometry": {
+        "coordinates": [-76.7972517, 39.2670106],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Person Trapped",
+        "description": "3 lives at risk"
+      },
+      "geometry": {
+        "coordinates": [-76.7971726, 39.266634],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Building Flooded",
+        "description": "0 lives at risk"
+      },
+      "geometry": {
+        "coordinates": [-76.7975158, 39.267727],
+        "type": "Point"
+      }
+    }
+  ],
+  "type": "FeatureCollection"
+}
