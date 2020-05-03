@@ -21,6 +21,7 @@ app.use(bodyParser.json());
 // socket.io will not work
 const port = process.env.PORT || 3000;
 const uri = process.env.URL || `http://localhost:${port}`;
+console.log("URI: " + uri);
 http.listen(port, () => console.log(`Listening on port: ${port}.`));
 
 app.get('/', (req, res) => res.render('index'));
@@ -40,8 +41,9 @@ app.get('/map', (req, res) => {
     if (error) {
       console.log(error);
     } else {
+      console.log(JSON.parse(body));
       const { sessionCode } = JSON.parse(body);
-      console.log(`session Code ${sessionCode}`);
+      console.log(`session Code ${sessionCode}!!!!`);
 
       res.json({ sessionCode });
     }

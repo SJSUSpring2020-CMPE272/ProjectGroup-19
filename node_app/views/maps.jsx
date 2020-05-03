@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
 import dashboardSpec from '../src/data/dashboard.json';
+//import Img from 'react-image';
+//import mapPic from './../src/map.jpg';
 
 class Map extends Component {
+
+  //state = { map: mapPic };
   static async initApi(sessionCode) {
     console.log(sessionCode);
     const api = new CognosApi({
-      cognosRootURL: 'https://dde-us-south.analytics.ibm.com/daas/',
+      cognosRootURL: 'https://us-south.dynamic-dashboard-embedded.cloud.ibm.com/daas/',
       sessionCode,
       node: document.getElementById('map'),
     });
@@ -33,8 +37,11 @@ class Map extends Component {
   }
 
   render() {
+    
     return (
-      <div id="map" />
+      <div > 
+        <img alt="Map Screenshot" />
+      </div>
     );
   }
 }

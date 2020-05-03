@@ -33,6 +33,7 @@ import {
 } from '../public/scripts/state.js';
 import NavBar from './navbar.jsx';
 import Map from './maps.jsx';
+import MapPicture from './mappicture.jsx';
 
 
 const uri = window.location.host.includes('localhost') ? 'http://localhost:3000' : `https://${window.location.host}`;
@@ -301,7 +302,7 @@ class CasaRoot extends Component {
               </ScrollPanel>
             </div>
             <div className="ui-g-5">
-              <Map />
+              <MapPicture />
             </div>
           </Slider>
         </div>

@@ -154,3 +154,7 @@ dialog, dd, dt {
 	font-size: 10pt;
 	margin-top: 1em;
 }
+
+.map {
+    background-image: url(./../../src/map.png);
+}
