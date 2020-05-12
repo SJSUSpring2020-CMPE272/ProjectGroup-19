@@ -48,7 +48,9 @@ React based project that creates a
 	- Watson Natural Language Understanding, Watson Language Studio
 	- Google Speech-to-Text
 	- MapBox IO API
-
+	
+## Cognos Embedded Dashboard Link
+https://dataplatform.cloud.ibm.com/dashboards/a3ea944b-d800-4fa0-accc-9fa910398134/view/057be42522aa03e360e7eae4079128007e3f7158b3bb870085837b490a367397a93c13c5c87a1f58d3150d6afbea4658ca
 
 ## How to install 
 1. ```git clone``` this repo to your machine
